@@ -29,7 +29,7 @@ const ContactSection = () => {
     setStatusMessage('');
 
     try {
-      const url = `http://localhost:8080/contact`; 
+      const url = `${import.meta.env.VITE_API_URL}/contact`; 
       const response = await fetch(url, {
         method: 'POST',
         headers: {
