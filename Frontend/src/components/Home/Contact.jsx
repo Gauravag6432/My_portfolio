@@ -219,7 +219,7 @@ const ContactSection = () => {
                     <div>
                       <h4 className="font-medium text-gray-900 dark:text-white">{method.title}</h4>
                       {method.link ? (
-                        <a href={method.link} className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
+                        <a href={method.link} target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
                           {method.value}
                         </a>
                       ) : (

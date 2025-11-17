@@ -45,7 +45,7 @@ const Hero = () => {
             
             <a 
             // href="/Resme.pdf"
-              href="https://drive.google.com/file/d/1pTQvEdez_MzcSxJ-0NwKMGyO5OnPxwqK/view?usp=sharing" 
+              href="https://drive.google.com/file/d/1it0UQsAwrNcpBWoXWQic3Wr5RsgiO8ms/view?usp=sharing"
               target="_blank"
               download
               rel="noopener noreferrer"

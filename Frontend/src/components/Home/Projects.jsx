@@ -85,13 +85,13 @@ const FeaturedProjects = () => {
                   </div>
                   <div className="flex gap-2">
                     <a
-                      href={project.github}
+                      href={project.github} target="_blank" rel="noopener noreferrer" 
                       className="bg-black/50 p-2 rounded-full hover:bg-black/80 transition-colors"
                     >
                       <Github size={16} className="text-white" />
                     </a>
                     <a
-                      href={project.live}
+                      href={project.live} target="_blank" rel="noopener noreferrer"
                       className="bg-blue-600/50 p-2 rounded-full hover:bg-blue-600/80 transition-colors"
                     >
                       <ExternalLink size={16} className="text-white" />

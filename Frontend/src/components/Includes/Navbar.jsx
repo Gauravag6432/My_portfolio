@@ -54,7 +54,7 @@ const Navbar = () => {
 
           <div className="hidden md:block">
             <a
-              href="https://drive.google.com/file/d/1pTQvEdez_MzcSxJ-0NwKMGyO5OnPxwqK/view?usp=sharing"
+              href="https://drive.google.com/file/d/1it0UQsAwrNcpBWoXWQic3Wr5RsgiO8ms/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200"
