@@ -11,8 +11,8 @@ const FeaturedProjects = () => {
       description: "Developed a personal portfolio website showcasing my projects, skills, and experience.",
       image: portfolioImage,
       tags: ["React", "Tailwind CSS", "JavaScript"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/Gauravag6432/My_portfolio",
+      live: "https://gauravagrawalportfolio.vercel.app/",
       category: "MERN Web App"
     },
     {

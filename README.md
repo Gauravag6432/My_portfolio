@@ -20,3 +20,9 @@ npm install react react-dom lucide-react react-toastify@vitejs/plugin-react vite
 npm run dev
 
 control + c (to quit/stop server)
+
+git status
+git add .
+(or) Git add --all
+git commit -m "your commit message"
+git push origin main

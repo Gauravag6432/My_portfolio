@@ -87,8 +87,8 @@ const ContactSection = () => {
     {
       icon: <Globe size={24} className="text-purple-600 dark:text-purple-400" />,
       title: 'Website',
-      value: '',
-      link: '',
+      value: 'https://gauravagrawalportfolio.vercel.app/',
+      link: 'https://gauravagrawalportfolio.vercel.app/',
     },
   ];
 
