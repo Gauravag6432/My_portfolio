@@ -12,6 +12,12 @@ const SkillsAndServices = () => {
       skills: ["Java Full Stack", "MERN Stack", "PERN Stack", "Python FastAPIs","RESTful APIs"]
     },
     {
+      icon: <Database size={36} className="text-orange-600 dark:text-orange-400 group-hover:text-white transition-colors duration-300" />,
+      title: "Data Engineering",
+      description: "Designing and optimizing database architectures for performance and scalability.",
+      skills: ["Trino SQL", "Apache Airflow", "Starburst Galaxy", "Data Build Tool", "Python", "Cloud Technologies"]
+    },
+    {
       icon: <Cpu size={36} className="text-purple-600 dark:text-purple-400 group-hover:text-white transition-colors duration-300" />,
       title: "AI & Machine Learning",
       description: "Developing intelligent systems using cutting-edge machine learning and deep learning techniques.",
@@ -22,12 +28,6 @@ const SkillsAndServices = () => {
       title: "DevOps Engineering",
       description: "Streamlining development and operations with automated deployment pipelines and container technologies.",
       skills: ["Docker", "Kubernetes", "Jenkins", "GitOps", "AWS"]
-    },
-    {
-      icon: <Database size={36} className="text-orange-600 dark:text-orange-400 group-hover:text-white transition-colors duration-300" />,
-      title: "Database Management",
-      description: "Designing and optimizing database architectures for performance and scalability.",
-      skills: ["MongoDB", "SQL", "AstraDB", "Database Optimization"]
     }
   ];
 
@@ -55,6 +55,17 @@ const SkillsAndServices = () => {
       ]
     },
     {
+      category: "Data Engineering",
+      icon: <Terminal size={24} className="text-orange-600 dark:text-orange-400" />,
+      skills: [
+        { name: "SQL", level: 95 },
+        { name: "Python", level: 90 },
+        { name: "Apache Airflow", level: 90 },
+        { name: "Cloud", level: 85 },
+        { name: "Data Modelling", level: 85 }
+      ]
+    },
+    {
       category: "AI & ML",
       icon: <Cpu size={24} className="text-purple-600 dark:text-purple-400" />,
       skills: [
@@ -64,25 +75,15 @@ const SkillsAndServices = () => {
         { name: "Natural Language Processing", level: 85 },
         { name: "NumPy", level: 85 }
       ]
-    },
-    {
-      category: "Databases",
-      icon: <Terminal size={24} className="text-orange-600 dark:text-orange-400" />,
-      skills: [
-        { name: "MySQL", level: 95 },
-        { name: "Oracle DB", level: 90 },
-        { name: "MongoDB", level: 85 },
-        { name: "PostgreSQL", level: 85 },
-        { name: "SQLite", level: 80 }
-      ]
     }
   ];
 
   const otherSkills = [
-    "Data Structures", "Algorithms", "OOP", "RESTful APIs", "FastAPI",
-    "DBMS", "Neural Networks", "Computer Networks", "Oracle APEX",
-    "Google Cloud Platform (GCP)", "Git", "GitHub", "Postman","Docker",
-    "Kubernetes","AWS", "Jenkins", "CI/CD", "Agile Methodologies"
+    "Data Structures", "Algorithms", "OOPs", "TrinoSQL", "RESTful APIs", "FastAPI", "Postman",
+    "DBMS", "Google Cloud Platform (GCP)", "AWS", "Jenkins", "Kubernetes", "CI/CD", "Agile Methodologies",
+    "Neural Networks", "Computer Networks", "Oracle APEX",
+    "Git", "GitHub", "Docker"
+    
   ];
 
   return (
@@ -93,7 +94,7 @@ const SkillsAndServices = () => {
             My <span className="text-blue-600 dark:text-blue-400">Skills</span> & <span className="text-blue-600 dark:text-blue-400">Services</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            With expertise in full-stack development, AI technologies, and DevOps, I provide comprehensive solutions to complex technical challenges.
+            With expertise in data Engineering, full-stack development and AI technologies, I provide comprehensive solutions to complex technical challenges.
           </p>
         </div>
 
