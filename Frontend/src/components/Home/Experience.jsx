@@ -50,7 +50,7 @@ const Experience = () => {
             Professional <span className="text-blue-600 dark:text-blue-400">Experience</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            My journey in software development through various roles and responsibilities.
+            My journey in data engineering and software development through various roles and responsibilities.
           </p>
         </div>
 
