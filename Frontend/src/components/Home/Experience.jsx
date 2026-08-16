@@ -1,5 +1,4 @@
-import { Calendar, MapPin } from 'lucide-react';
-
+import { Briefcase, Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
@@ -32,7 +31,7 @@ const Experience = () => {
     {
     title: "AI & ML Research Intern",
     company: "Centre for Artificial Intelligence and Robotics (CAIR) DRDO",
-    location: "Bangalore",
+    location: "Bengaluru",
     description: [
         "Conducted extensive research and experimentation with various model architectures and hyperparameter tuning to optimize performance.",
       "Developed and trained an Ensemble model to classify AI-generated vs. human-written text achieving 79% classification accuracy.",
@@ -68,6 +67,7 @@ const Experience = () => {
                   </h3>
                   <div className="flex flex-wrap items-center gap-3 text-gray-600 dark:text-gray-400">
                     <div className="flex items-center">
+                      <Briefcase size={16} className="mr-1" />
                       {exp.company}
                     </div>
                     <div className="flex items-center">
@@ -75,7 +75,7 @@ const Experience = () => {
                       {exp.location}
                     </div>
                     <div className="flex items-center">
-                      <Calendar size={16} className="mr-1" />
+                      {/* <Calendar size={16} className="mr-1" /> */}
                       {exp.duration}
                     </div>
                   </div>
