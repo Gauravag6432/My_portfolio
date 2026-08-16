@@ -1,4 +1,4 @@
-import { Briefcase, Calendar, MapPin } from 'lucide-react';
+import { Calendar, MapPin } from 'lucide-react';
 
 const Experience = () => {
   const experiences = [
@@ -68,7 +68,6 @@ const Experience = () => {
                   </h3>
                   <div className="flex flex-wrap items-center gap-3 text-gray-600 dark:text-gray-400">
                     <div className="flex items-center">
-                      <Briefcase size={16} className="mr-1" />
                       {exp.company}
                     </div>
                     <div className="flex items-center">
