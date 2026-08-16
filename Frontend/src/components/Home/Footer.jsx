@@ -34,7 +34,7 @@ const Footer = () => {
         links: [
           { name: "Frontend Development", url: "#services" },
           { name: "Backend Development", url: "#services" },
-          { name: "Full Stack Solutions", url: "#services" },
+          { name: "Data Solutions", url: "#services" },
           { name: "AI & ML Integration", url: "#services" }
         ]
       }
@@ -47,8 +47,8 @@ const Footer = () => {
             <div className="lg:col-span-2">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Gaurav Agrawal</h3>
               <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-md">
-                Freelance developer specializing in modern web technologies, AI integration, 
-                and creating exceptional digital experiences for businesses worldwide.
+                Data and Software specialist in modern data, web, software and AI technologies 
+                  and creating exceptional digital experiences for businesses worldwide.
               </p>
               
               <div className="flex items-center gap-4">
