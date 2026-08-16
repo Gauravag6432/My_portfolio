@@ -94,7 +94,7 @@ const SkillsAndServices = () => {
             My <span className="text-blue-600 dark:text-blue-400">Skills</span> & <span className="text-blue-600 dark:text-blue-400">Services</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            With expertise in data Engineering, full-stack development and AI technologies, I provide comprehensive solutions to complex technical challenges.
+            With expertise in Data Engineering, Full-stack Development and AI technologies, I provide comprehensive solutions to complex technical challenges.
           </p>
         </div>
 
