@@ -104,7 +104,7 @@ const Hero = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-900 dark:text-white text-lg">Gaurav Agrawal</h3>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm">Data Engineering Trainee @ ANZ Bank,</p>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm">Data Engineering Trainee @ ANZ Bank</p>
                   </div>
                 </div>
                 
