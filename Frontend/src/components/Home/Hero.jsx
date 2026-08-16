@@ -23,13 +23,13 @@ const Hero = () => {
             <h2 className="text-xl md:text-2xl font-medium text-gray-700 dark:text-gray-300 flex items-center">
               <span className="mr-2">I'm a</span>
               <span className="text-blue-600 dark:text-blue-400 relative">
-                Full Stack Developer
+                Data and Software Enthusiast
               </span>
             </h2>
           </div>
           
           <p className="text-gray-600 dark:text-green-600 text-lg mb-8 max-w-lg">
-            Experienced in creating scalable applications with modern technologies. 
+            Experienced in creating scalable Data Pipelines and Applications with modern technologies. 
           </p>
           
           <div className="flex flex-wrap gap-4 mb-8">
@@ -45,7 +45,7 @@ const Hero = () => {
             
             <a 
             // href="/Resme.pdf"
-              href="https://drive.google.com/file/d/1it0UQsAwrNcpBWoXWQic3Wr5RsgiO8ms/view?usp=sharing"
+              href="https://drive.google.com/file/d/1lMapDC7OG55AobyWrD4GskHO-wjMtdqd/view?usp=sharing"
               target="_blank"
               download
               rel="noopener noreferrer"
@@ -104,7 +104,7 @@ const Hero = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-900 dark:text-white text-lg">Gaurav Agrawal</h3>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm">Full Stack Developer</p>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm">Data Engineering Trainee @ ANZ Bank,</p>
                   </div>
                 </div>
                 
@@ -112,7 +112,7 @@ const Hero = () => {
                   <div className="bg-gray-100 dark:bg-gray-700 rounded-lg p-3">
                     <div className="flex items-center gap-2 mb-1">
                       <div className="w-3 h-3 rounded-full bg-blue-500"></div>
-                      <p className="font-medium text-gray-800 dark:text-gray-200">MERN Stack</p>
+                      <p className="font-medium text-gray-800 dark:text-gray-200">Data Engineering</p>
                     </div>
                     <div className="w-full bg-gray-200 dark:bg-gray-600 rounded-full h-2">
                       <div className="bg-blue-600 h-2 rounded-full w-11/12"></div>
@@ -148,8 +148,8 @@ const Hero = () => {
                         <span class="text-xs text-gray-600 dark:text-gray-400">Projects</span>
                         </div>
                         <div class="bg-green-50 dark:bg-green-900/20 p-2 rounded-lg flex flex-col items-center justify-center">
-                        <span class="text-xl font-bold text-green-600 dark:text-green-400">2+</span>
-                        <span class="text-xs text-gray-600 dark:text-gray-400">Internships</span>
+                        <span class="text-xl font-bold text-green-600 dark:text-green-400">3+</span>
+                        <span class="text-xs text-gray-600 dark:text-gray-400">Experiences</span>
                         </div>
                     </div>
                 </div>
