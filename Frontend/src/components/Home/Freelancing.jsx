@@ -31,14 +31,14 @@ const FreelancingServices = () => {
     },
     {
       icon: <Code size={40} className="text-purple-600" />,
-      title: "Full Stack Solutions",
+      title: "Data Solutions",
       description: "End-to-end web applications with seamless frontend and backend integration.",
       features: [
-        "MERN stack development",
-        "Java Full stack development",
-        "Python Full stack development",
-        "API integration",
-        "Payment processing"
+        "Data Pipeline Build",
+        "Cloud based data solution",
+        "Data processing and transformation",
+        "Data architecture and automation",
+        "Database management"
       ]
     },
     {
