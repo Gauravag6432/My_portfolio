@@ -3,6 +3,19 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      title: "Data Engineering Trainee",
+      company: "Australia and New Zealand Bank",
+      location: "Bengaluru",
+      description: [
+        "Building scalable end-to-end cloud native data pipelines to provide high-fidelity for Business Performance Analysts.",
+        "Automating DBT transformations via Trino SQL and orchestrating with Apache Airflow via Python.",
+        "Leveraging Starburst Galaxy for rigorous testing and Code Fresh for CI/CD pipelines to ensure enterprise banking standards.",
+        "Standardizing data ingestion processes by engineering Python-driven bidirectional file transfers across multiple data storage capabilities.",
+        "Worked on improving query performance by optimizing database queries, saved computational cost by 4x and query run time by 3x. "
+      ],
+      technologies: ["DBT", "Apache Airflow", "Starburst Galaxy", "Trino SQL", "Python", "Cloud"]
+    },
+    {
       title: "Software Development Intern",
       company: "Voya India",
       location: "Bengaluru",
@@ -12,8 +25,7 @@ const Experience = () => {
         "Developed 10+ pages including the home page, login page, interactive report page, and forms page with extensive functionality.",
         "Designed a structured request and multi-level approval workflow, enhancing operational efficiency and user satisfaction.",
         "Collaborated with senior developers to implement new features and improve functionality",
-        "Participated in code reviews and contributed to team discussions",
-        "Worked on optimizing database queries and improving application performance"
+        "Participated in code reviews and contributed to team discussions"
       ],
       technologies: ["Oracle APEX", "CSS", "JavaScript", "Oracle Database"]
     },
